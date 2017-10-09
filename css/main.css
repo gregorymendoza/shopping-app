@@ -1,0 +1,31 @@
+.product {
+    margin: 0 5px;
+}
+
+.locked {
+    opacity: 0.4;
+}
+
+.product .image {
+    text-align: center;
+    border: solid 1px;
+    padding: 13px 0;
+}
+
+.product p {
+    font-size: 12px;
+}
+
+.product .price {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+    border-bottom: 1px solid;
+    margin-bottom: 19px;
+}
+
+.cart {
+    border: solid 1px silver;
+    border-radius: 7px;
+    padding: 10px;
+}

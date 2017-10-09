@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Shopping with AngularJS</title>
+
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css" />    
+
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="app.js"></script>
+    
+    <script src="controllers/main.js"></script>
+    <script src="controllers/navigationControl.js"></script>
+    <script src="controllers/confirmation.js"></script>
+    
+    <script src="services/shoppingCart.js"></script>
+</head>
+
+<body ng-app='navigation'>
+
+    <header class="navbar navbar-default" ng-controller="navigationControl">
+        <div class="container">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Virtual Store</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="container" ng-view>
+    
+    </div>
+    
+</body>
+</html>
